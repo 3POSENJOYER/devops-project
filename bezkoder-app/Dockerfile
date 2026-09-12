@@ -1,5 +1,5 @@
-FROM node:14
 
+FROM node:18
 WORKDIR /bezkoder-app
 COPY package.json .
 RUN npm install
